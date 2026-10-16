@@ -1,0 +1,25 @@
+name: uts_teori_game_app
+description: "NexusGame Store - Aplikasi Katalog & Informasi Game Free-to-Play Berbasis REST API (UTS Pemrograman Mobile)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  json_annotation: ^4.9.0
+  readmore: ^2.2.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
