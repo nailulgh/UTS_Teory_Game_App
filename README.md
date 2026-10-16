@@ -4,6 +4,9 @@
 **Disusun Oleh:** Muhammad Nailul Ghufron Majid (`240605110160`)  
 **Program Studi:** Teknik Informatika — Fakultas Sains dan Teknologi  
 **Institusi:** Universitas Islam Negeri Maulana Malik Ibrahim Malang  
+**Repositori GitHub:** [https://github.com/nailulgh/UTS_Teory_Game_App](https://github.com/nailulgh/UTS_Teory_Game_App)
+
+![NexusGame Store UI/UX Pro Max Design Refinement](assets/screenshots/04_Three_Screens_Mockup.png)
 
 ---
 
