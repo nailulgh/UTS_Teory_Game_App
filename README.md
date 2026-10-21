@@ -31,7 +31,17 @@ Aplikasi ini mengadopsi sistem desain **Obsidian Gaming Dark & Electric Violet (
 
 ---
 
-## 📂 3. Struktur Folder Proyek
+## 🛠️ 3. Teknologi & Package yang Digunakan
+* **Flutter SDK & Dart:** Toolkit UI multiplatform dan bahasa pemrograman utama.
+* **http (^1.1.0):** Komunikasi jaringan protokol HTTP GET asinkron ke endpoint server REST API.
+* **json_annotation (^4.9.0) & json_serializable (^6.7.1):** Deserialisasi objek JSON bersarang (*nested JSON*) menjadi class model Dart yang *type-safe*.
+* **build_runner (^2.4.8):** Alat otomasi *code generation* untuk menghasilkan berkas `detailgame.g.dart`.
+* **readmore (^2.2.0):** Komponen ekspansi teks deskripsi panjang secara ringkas dan interaktif pada halaman detail.
+* **cupertino_icons (^1.0.8):** Aset ikon grafis pendukung antarmuka pengguna.
+
+---
+
+## 📂 4. Struktur Folder Proyek
 ```text
 lib/
 ├── model/
@@ -48,7 +58,7 @@ lib/
 
 ---
 
-## 🚀 4. Cara Menjalankan Proyek
+## 🚀 5. Cara Menjalankan Proyek
 1. Pastikan **Flutter SDK** telah terpasang dan perangkat/emulator terhubung.
 2. Unduh seluruh paket dependensi:
    ```bash
@@ -58,7 +68,11 @@ lib/
    ```bash
    dart run build_runner build --delete-conflicting-outputs
    ```
-4. Jalankan aplikasi:
+4. Jalankan pengujian otomatis:
+   ```bash
+   flutter test
+   ```
+5. Jalankan aplikasi:
    ```bash
    flutter run
    ```
